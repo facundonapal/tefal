@@ -1,0 +1,136 @@
+.product-accessories .item,.product-accessories .item *,.product-accessories .item .thumbnail,.product-accessories .item .thumbnail:hover,.product-accessories .thumbnail,.product-accessories .thumbnail img,.product-accessories .thumbnail:hover,.product-accessories a,.thumbnail {
+    -webkit-print-color-adjust: exact!important;
+    background-color: transparent!important;
+    -moz-border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    border-radius: 0!important
+}
+
+.product-accessories .item .pastil,.product-accessories .item .sticker {
+    background-color: transparent!important
+}
+
+@media print {
+    * {
+        text-shadow: none!important;
+        background: 0 0!important;
+        box-shadow: none!important
+    }
+
+    a,a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: none;
+        display: none
+    }
+
+    abbr[title]:after {
+        content: none
+    }
+
+    .ir a:after,a[href^="#"]:after,a[href^="javascript:"]:after {
+        content: none;
+        display: none
+    }
+
+    .bloc-services,.btn,.carousel-control,.culinary-lexicon,.footer,.help-bar,.lame-control,.navbar,.product-customeradvices,.product-doc,.product-faq,.product-tag-links,.quantity .add-on,.subnav,.swipe-arrows,.user-tools {
+        display: none!important
+    }
+
+    .quantity input {
+        border: 0 none!important;
+        width: 20px
+    }
+
+    .bloc {
+        page-break-inside: avoid;
+        border-bottom: 0 none
+    }
+
+    .bloc-comm .span5 {
+        width: 100%
+    }
+
+    .affix {
+        position: relative
+    }
+
+    .product-list .item {
+        page-break-inside: avoid
+    }
+
+    .lame-filter-list {
+        page-break-inside: avoid;
+        page-break-after: avoid
+    }
+
+    .close,.comments-share,.filtre-comparator,.head-entry,.homologation-burgerMenu,.lame-control,.product-advice,.product-doc,.product-faq,.product-recent,.product-social {
+        display: none
+    }
+
+    .sticky-header,.wrap-header {
+        position: static
+    }
+
+    .logo-tefal {
+        left: 50%;
+        margin: -18px 0 0 -75px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transition: all .3s ease 0s;
+        width: 160px
+    }
+
+    body {
+        -webkit-print-color-adjust: exact
+    }
+
+    .bloc-head {
+        margin-top: 70px!important
+    }
+
+    .advices-list .is,.scrollable .is,.scrollable-lame .is,.scrollableTable .is {
+        color: #009262!important;
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-position: 0 0;
+        -webkit-print-color-adjust: exact
+    }
+
+    .advices-list .is,.advices-list .not,.scrollable .is,.scrollable .not,.scrollable-lame .is,.scrollable-lame .not,.scrollableTable .is,.scrollableTable .not {
+        background: url(../../../common/img/opt.png) no-repeat 0 0 transparent!important;
+        margin-top: 12px!important
+    }
+
+    #ScrollabeTableCompare {
+        display: table-row-group;
+        border: none!important;
+        margin-bottom: 20px!important
+    }
+
+    #ScrollabeTableCompare::after {
+        content: '';
+        display: block;
+        page-break-after: always;
+        page-break-inside: avoid;
+        page-break-before: avoid
+    }
+
+    @page {
+        margin: 2cm
+    }
+
+    .page-ProductComparatorPage .product-comparison .scrollableTable>div {
+        position: relative!important;
+        left: 0!important;
+        top: 0!important
+    }
+
+    .page-ProductComparatorPage .product-comparison .scrollableTable table thead tr,.page-ProductComparatorPage .product-comparison .scrollableTable table thead tr th {
+        height: inherit!important
+    }
+}

@@ -1,0 +1,160 @@
+.Light {
+    font-family: EurostileNextLTPro-Light
+}
+
+.Regular {
+    font-family: EurostileNextLTPro-Regular
+}
+
+.Bold {
+    font-family: EurostileNextLTPro-Bold
+}
+
+.SmBd {
+    font-family: EurostileNextLTPro-SmBd
+}
+
+.faq-topics-list .title,.food-drink-preparation-list .title {
+    font-family: EurostileNextLTPro-SmBd,arial,helvetica,sans-serif
+}
+
+#rollover_cart_popup .inner li .price,.bloc-comm .inner .richtext h2,.bloc-nad-recipes h3,.bloc-nad-recipes h5,.chapter-intro .title,.container-indie p,.details-store-off h4,.details-store-off ul li p,.engagement-bloc h2,.engagements-intro .title,.expert-advice .intro h2,.free-delivery p,.innovations-bloc h2,.lame-recipes .inner h2,.name,.previous-recipes .caption p,.product-cat .caption p,.product-detail .value,.product-detail h1,.product-detail h2,.product-detail h4,.product-detail h5,.product-detail h6,.product-detail ul,.product-detail ul li,.product-tag-links,.promo-amount,.title,.total-cart-detail table th,h1,h2,h3,h4,h5,h6 {
+    font-family: EurostileNextLTPro-Light,arial,helvetica,sans-serif;
+    font-weight: 400
+}
+
+.accordion-heading,.btn,.cart-list-table table tbody tr td h4,.choose-country .title,.choose-country h1,.delivery-status h4,.faq-products-list .lame-filter-list h4,.filters-faq .accordion-inner .sub-accordion .accordion-toggle,.free-delivery p strong,.globalnote p,.globalnote p span,.help-bar .inner .title,.lame-filter-list h4,.modal-product-buy h4.modal-buy,.pastil,.product-cat .lame-filter-list h4,.product-cat h3,.product-cat h5,.product-comparator .filter-list .name,.product-detail .h3,.product-detail h3,.sticker,.subnav ul li .product .name,.total-cart-detail table tr.total td,div,input,label,legend,li,ol,option,p,select,span,ul {
+    font-family: EurostileNextLTPro-Regular,arial,helvetica,sans-serif
+}
+
+.accessories-list .item h3,.accessories-push .thumbnail .infos .name,.accessories-push .thumbnail h4,.accessories-results h2,.accessories-results h2 span,.bloc-comm .inner .richtext h3,.bloc-comm .inner .richtext h4,.bloc-comm .inner .richtext h5,.bloc-comm .inner .richtext h6,.bloc-find label,.bloc-nad-recipes .intro h5,.bloc-nutri-values h5,.bloc-nutri-values h5 span,.bloc-seo .inner h1,.bloc-services h3,.blocs-special-offers [class*=span] p,.blocs-special-offers [class*=span] p span,.cart_popup .inner h4,.cart_popup .inner li .product h5,.chapter-bloc .inner h3,.chapter-bloc .inner h4,.chapter-bloc .inner h5,.chapter-bloc .inner h6,.chapter-knowit .caption .inner .title,.choose-country-list h3,.consumer-services-wr .caption p,.cookies p strong,.delivery-cost h5,.demo-video p,.details-store-off h4 span,.details-store-off label span,.expert-advice .intro p strong,.faq-banner .caption h1,.faq-banner .caption h2,.faq-banner .caption h3,.faq-banner .caption h4,.faq-banner .caption h5,.faq-banner .caption h6,.faq-topics-list .item h3,.filter-list .name,.filters .item .category h4,.filters-faq .accordion-inner .accordion-toggle,.filters-prod .accordion-heading,.filters-prod .filters h3,.filters-search .accordion-heading a,.form-user legend,.guide-list .item h3,.inner-indies h4,.innovations-intro p strong,.intro-faq .caption h4,.modal-receive-by-mail .btn,.modal-receive-by-mail p,.navbar .nav>li,.new-user legend,.orders-user h4,.orders-user legend,.product-accessories .caption .name,.product-accessories .thumbnail .name,.product-comparator .name,.product-comparator .print,.product-comparison .name,.product-faq .accordion-inner .product-heading,.product-list .caption .name,.product-list .thumbnail .name,.push-home .thumbnails div .caption h3,.push-home div a h3,.push-light .caption h3,.push-list div a h3,.push-red .caption h3,.see-products .caption h5,.social-sphere a,.subnav .scroll h3,.swipe-arrows div a,.total-cart-detail table td,.total-cart-detail table tr.total th,.total-promo h5 {
+    font-family: EurostileNextLTPro-SmBd,arial,helvetica,sans-serif
+}
+
+.user-tools {
+    font-size: 10px
+}
+
+.navbar .nav>li {
+    font-size: 11px
+}
+
+.navbar .nav>li>a {
+    padding: 7px 20px 4px
+}
+
+.subnav ul li {
+    padding: 0 6px
+}
+
+.subnav ul li .product .name {
+    font-size: 11px
+}
+
+.subnav ul li .product {
+    width: 86px
+}
+
+.breadcrumb a {
+    font-weight: 400
+}
+
+.sticker-mum p {
+    font-size: 25px;
+    left: -50px;
+    padding: 0 30px;
+    top: 45px
+}
+
+.sticker-weboffer p {
+    font-size: 21px;
+    left: -40px;
+    top: 45px
+}
+
+.sticker-flash p {
+    left: -40px;
+    padding: 0 35px;
+    top: 55px
+}
+
+.sticker-small.sticker-flash p {
+    padding: 0 12px;
+    padding: 0 25px;
+    left: -28px;
+    top: 20px
+}
+
+.sticker-small.sticker-weboffer p {
+    left: -23px;
+    top: 18px
+}
+
+.sticker-small.sticker-mum p {
+    font-size: 11px;
+    left: -27px
+}
+
+.sticker-small.sticker-new p {
+    left: 14px;
+    top: 25px
+}
+
+.pastil p {
+    font-size: 18px;
+    padding-top: 24px
+}
+
+.filters .item .category {
+    padding: 5px 2px
+}
+
+.help-bar .caption h3,.help-bar .inner .title {
+    font-size: 17px;
+    line-height: 17px
+}
+
+.product-cat .title {
+    font-size: 50px
+}
+
+.product-accessories .caption .name,.product-list .caption .name {
+    line-height: 14px
+}
+
+.product-accessories .price,.product-list .price {
+    font-size: 17px
+}
+
+.product-accessories .price small,.product-list .price small {
+    font-size: 12px
+}
+
+.global-advise {
+    font-size: 11px
+}
+
+.global-advise .bar {
+    width: 65%
+}
+
+.globalnote .btn {
+    font-size: 12px
+}
+
+.filters .cat-desc h1 {
+    font-size: 17.5px;
+    line-height: 20px
+}
+
+.advices-list .is,.advices-list .not,.left,.right,.scrollable .is,.scrollable .not,.scrollableTable .is,.scrollableTable .not {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.error-page h3,.error-page h4 {
+    font-family: EurostileNextLTPro-Light
+}
+
+.downloads .item .downloadPDF,.downloads .item h2,.downloads .item p {
+    color: #858585
+}

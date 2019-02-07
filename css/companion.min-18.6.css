@@ -1,0 +1,793 @@
+.container-companion,.container-companion-cuisine,.container-companion-cuisine-club {
+    margin: 0 auto;
+    position: relative
+}
+
+.container-companion {
+    background-color: #f2f2f2;
+    margin-bottom: 30px
+}
+
+.container-companion .lame1,.container-companion-cuisine .lame1,.container-companion-cuisine-club .lame1 {
+    background: url(../../common/img/companion/lame1.png) no-repeat;
+    width: 940px;
+    height: 477px
+}
+
+.container-companion .lame1-titre,.container-companion-cuisine .lame1-titre,.container-companion-cuisine-club .lame1-titre {
+    text-align: center;
+    padding-top: 80px
+}
+
+.container-companion .lame1-titre p,.container-companion-cuisine .lame1-titre p,.container-companion-cuisine-club .lame1-titre p {
+    width: 80%;
+    padding: 15px 0;
+    margin: 0 auto;
+    color: #585858;
+    font-family: EurostileNextLTPro-Regular,arial,helvetica,sans-serif;
+    font-size: 1.2em
+}
+
+.container-companion #filterlist-img,.container-companion-cuisine #filterlist-img,.container-companion-cuisine-club #filterlist-img {
+    position: relative
+}
+
+.container-companion .bloc-filter,.container-companion-cuisine .bloc-filter,.container-companion-cuisine-club .bloc-filter {
+    position: relative;
+    top: -14px
+}
+
+.container-companion .bloc-filter #filterlist label img,.container-companion-cuisine .bloc-filter #filterlist label img,.container-companion-cuisine-club .bloc-filter #filterlist label img {
+    height: 100px;
+    width: 100px
+}
+
+.container-companion #filter-menu,.container-companion-cuisine #filter-menu,.container-companion-cuisine-club #filter-menu {
+    height: 28px
+}
+
+.container-companion #filter-menu ul,.container-companion-cuisine #filter-menu ul,.container-companion-cuisine-club #filter-menu ul {
+    background-color: #898077
+}
+
+.container-companion #filter-menu form,.container-companion-cuisine #filter-menu form,.container-companion-cuisine-club #filter-menu form {
+    margin: 0;
+    padding: 0;
+    float: left
+}
+
+.container-companion #filter-menu li p,.container-companion #filter-menu li.active,.container-companion-cuisine #filter-menu li p,.container-companion-cuisine #filter-menu li.active,.container-companion-cuisine-club #filter-menu li p,.container-companion-cuisine-club #filter-menu li.active {
+    font-family: EurostileNextLTPro-Regular,arial,helvetica,sans-serif;
+    font-size: 1.2em;
+    color: #fff
+}
+
+.container-companion #filter-menu li#filterby,.container-companion-cuisine #filter-menu li#filterby,.container-companion-cuisine-club #filter-menu li#filterby {
+    padding-right: 20px;
+    font-weight: 400
+}
+
+.container-companion #filter-menu li#starters,.container-companion-cuisine #filter-menu li#starters,.container-companion-cuisine-club #filter-menu li#starters {
+    padding: 0 20px;
+    border-right: 1px solid #fff
+}
+
+.container-companion #filter-menu li#mains,.container-companion-cuisine #filter-menu li#mains,.container-companion-cuisine-club #filter-menu li#mains {
+    padding: 0 20px;
+    border-right: 1px solid #fff
+}
+
+.container-companion #filter-menu li#dessert,.container-companion-cuisine #filter-menu li#dessert,.container-companion-cuisine-club #filter-menu li#dessert {
+    padding: 0 20px
+}
+
+.container-companion #img1 p,.container-companion-cuisine #img1 p,.container-companion-cuisine-club #img1 p {
+    width: 150px;
+    position: relative;
+    left: 38px
+}
+
+.container-companion #img1 .active,.container-companion #img1 a:hover,.container-companion-cuisine #img1 .active,.container-companion-cuisine #img1 a:hover,.container-companion-cuisine-club #img1 .active,.container-companion-cuisine-club #img1 a:hover {
+    text-decoration: underline;
+    width: 30px;
+    background: url(../../common/img/companion/menu-header.png) 0 -38px
+}
+
+.container-companion #img2,.container-companion-cuisine #img2,.container-companion-cuisine-club #img2 {
+    left: 240px!important;
+    width: 40px;
+    background: url(../../common/img/companion/menu-header.png) -34px 0
+}
+
+.container-companion #img2 p,.container-companion-cuisine #img2 p,.container-companion-cuisine-club #img2 p {
+    width: 150px;
+    position: relative;
+    left: 55px
+}
+
+.container-companion #img2 .active,.container-companion #img2 a:hover,.container-companion-cuisine #img2 .active,.container-companion-cuisine #img2 a:hover,.container-companion-cuisine-club #img2 .active,.container-companion-cuisine-club #img2 a:hover {
+    text-decoration: underline;
+    width: 40px;
+    background: url(../../common/img/companion/menu-header.png) -34px -38px
+}
+
+.container-companion #img3,.container-companion-cuisine #img3,.container-companion-cuisine-club #img3 {
+    left: 420px!important;
+    width: 45px;
+    background: url(../../common/img/companion/menu-header.png) -84px 0
+}
+
+.container-companion #img3 p,.container-companion-cuisine #img3 p,.container-companion-cuisine-club #img3 p {
+    width: 200px;
+    position: relative;
+    left: 55px
+}
+
+.container-companion #img3 .active,.container-companion #img3 a:hover,.container-companion-cuisine #img3 .active,.container-companion-cuisine #img3 a:hover,.container-companion-cuisine-club #img3 .active,.container-companion-cuisine-club #img3 a:hover {
+    text-decoration: underline;
+    width: 45px;
+    background: url(../../common/img/companion/menu-header.png) -84px -41px
+}
+
+.container-companion #img4,.container-companion-cuisine #img4,.container-companion-cuisine-club #img4 {
+    left: 700px!important;
+    width: 50px;
+    background: url(../../common/img/companion/menu-header.png) -140px 0
+}
+
+.container-companion #img4 p,.container-companion-cuisine #img4 p,.container-companion-cuisine-club #img4 p {
+    width: 150px;
+    position: relative;
+    left: 55px
+}
+
+.container-companion #img4 .active,.container-companion #img4 a:hover,.container-companion-cuisine #img4 .active,.container-companion-cuisine #img4 a:hover,.container-companion-cuisine-club #img4 .active,.container-companion-cuisine-club #img4 a:hover {
+    text-decoration: underline;
+    height: 37px;
+    width: 50px;
+    background: url(../../common/img/companion/menu-header.png) -140px -39px
+}
+
+.container-companion .bloc-filter,.container-companion-cuisine .bloc-filter,.container-companion-cuisine-club .bloc-filter {
+    position: relative;
+    top: -14px
+}
+
+.container-companion #filterlist ul,.container-companion-cuisine #filterlist ul,.container-companion-cuisine-club #filterlist ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 0
+}
+
+.container-companion #filterlist li,.container-companion-cuisine #filterlist li,.container-companion-cuisine-club #filterlist li {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 700;
+    opacity: .4;
+    margin: 0;
+    padding: 0
+}
+
+.container-companion #filterlist li.disable,.container-companion-cuisine #filterlist li.disable,.container-companion-cuisine-club #filterlist li.disable {
+    pointer-events: none;
+    cursor: default
+}
+
+.container-companion #filterlist li p,.container-companion-cuisine #filterlist li p,.container-companion-cuisine-club #filterlist li p {
+    font-family: EurostileNextLTPro-Regular,arial,helvetica,sans-serif;
+    font-size: 1.2em;
+    color: #585858;
+    margin-top: 5px
+}
+
+.container-companion #filterlist li.active,.container-companion #filterlist li:hover,.container-companion-cuisine #filterlist li.active,.container-companion-cuisine #filterlist li:hover,.container-companion-cuisine-club #filterlist li.active,.container-companion-cuisine-club #filterlist li:hover {
+    opacity: 1
+}
+
+.container-companion #filterlist li .icheckbox,.container-companion-cuisine #filterlist li .icheckbox,.container-companion-cuisine-club #filterlist li .icheckbox {
+    visibility: hidden
+}
+
+.container-companion #filterlist li form,.container-companion-cuisine #filterlist li form,.container-companion-cuisine-club #filterlist li form {
+    margin: 0
+}
+
+.container-companion #filter-menu ul,.container-companion-cuisine #filter-menu ul,.container-companion-cuisine-club #filter-menu ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 940px
+}
+
+.container-companion #filter-menu li,.container-companion-cuisine #filter-menu li,.container-companion-cuisine-club #filter-menu li {
+    float: left;
+    display: inline;
+    text-align: center;
+    list-style: outside none none;
+    margin: 0;
+    padding: 4px 20px 4px 0
+}
+
+.container-companion #filter-menu form li a:hover,.container-companion #filter-menu form li.active,.container-companion-cuisine #filter-menu form li a:hover,.container-companion-cuisine #filter-menu form li.active,.container-companion-cuisine-club #filter-menu form li a:hover,.container-companion-cuisine-club #filter-menu form li.active {
+    font-weight: 700
+}
+
+.container-companion #filter-menu li p,.container-companion-cuisine #filter-menu li p,.container-companion-cuisine-club #filter-menu li p {
+    font-family: EurostileNextLTPro-Regular,arial,helvetica,sans-serif;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    max-height: 20px
+}
+
+.container-companion #filter-menu li#filterby,.container-companion-cuisine #filter-menu li#filterby,.container-companion-cuisine-club #filter-menu li#filterby {
+    padding-right: 20px;
+    font-weight: 400;
+    background-color: #49423d;
+    padding-left: 20px;
+    margin-right: 20px;
+    background: #49423d url(../../common/img/companion-subfilter.png) no-repeat center right
+}
+
+.container-companion #filter-menu li#starters,.container-companion-cuisine #filter-menu li#starters,.container-companion-cuisine-club #filter-menu li#starters {
+    padding: 0 20px;
+    border-right: 1px solid #fff
+}
+
+.container-companion #filter-menu li#mains,.container-companion-cuisine #filter-menu li#mains,.container-companion-cuisine-club #filter-menu li#mains {
+    padding: 0 20px;
+    border-right: 1px solid #fff
+}
+
+.container-companion #filter-menu li#dessert,.container-companion-cuisine #filter-menu li#dessert,.container-companion-cuisine-club #filter-menu li#dessert {
+    padding: 0 20px
+}
+
+.bloc-recettes .zone-showmore .see-more {
+    margin-top: 0
+}
+
+.container-companion .bloc-recettes,.container-companion-cuisine .bloc-recettes,.container-companion-cuisine-club .bloc-recettes {
+    margin: 20px 0
+}
+
+.page-companion-recipe-list #bloc-recettes .thumbnails [class*=span]:first-child {
+    margin-left: .5%
+}
+
+.page-companion-recipe-list #bloc-recettes .thumbnails .span2 {
+    width: 16%!important;
+    margin-left: .5%!important
+}
+
+.container-companion .bloc-recettes p,.container-companion-cuisine .bloc-recettes p,.container-companion-cuisine-club .bloc-recettes p {
+    font-family: EurostileNextLTPro-Regular,arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em
+}
+
+.container-companion .push-home .thumbnails div .caption,.container-companion-cuisine .push-home .thumbnails div .caption,.container-companion-cuisine-club .push-home .thumbnails div .caption {
+    padding: 10px 22px
+}
+
+.bloc-recettes div .caption p.text-left {
+    padding: 5px 20px;
+    text-align: left
+}
+
+.container-companion .bloc-recettes .picture,.container-companion-cuisine .bloc-recettes .picture,.container-companion-cuisine-club .bloc-recettes .picture {
+    border: 1px solid #dadada;
+    box-shadow: 0 0 0 transparent
+}
+
+#filterlist-img {
+    position: relative;
+    background-color: #898077;
+    z-index: 100
+}
+
+#filterlist-img ul {
+    margin: 0 auto;
+    text-align: center
+}
+
+#filterlist-img ul li {
+    margin: 0 15px;
+    padding: 15px 0;
+    list-style: none;
+    display: inline-block
+}
+
+#filterlist-img a,#filterlist-img ul li {
+    color: #fff
+}
+
+#filterlist-img a img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0
+}
+
+#filterlist-img a>p {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#filterlist-img ul li:hover a>p {
+    text-decoration: underline
+}
+
+#filterlist-img a .comp-top-menu-img-hover,#filterlist-img ul li:hover .comp-top-menu-img {
+    display: none
+}
+
+#filterlist-img ul li:hover .comp-top-menu-img-hover {
+    display: inline-block
+}
+
+#filterlist-img ul li p {
+    font-family: EurostileNextLTPro-SmBd,arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    position: relative
+}
+
+#filterlist-img ul li p {
+    margin: 0;
+    padding: 0
+}
+
+#filterlist-img #img1 a,#filterlist-img #img2 a,#filterlist-img #img3 a,#filterlist-img #img4 a {
+    background-image: url(../../common/img/companion/menu-header-v2.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 28px 50px 20px 50px;
+    display: block;
+    text-align: left
+}
+
+#filterlist-img #img1 a {
+    background-position: 0 0!important
+}
+
+#filterlist-img #img1 .active,#filterlist-img #img1 a:hover {
+    text-decoration: underline;
+    background-position: 0 -52px!important
+}
+
+#filterlist-img #img2 a {
+    background-position: 0 -126px!important
+}
+
+#filterlist-img #img2 .active,#filterlist-img #img2 a:hover {
+    text-decoration: underline;
+    background-position: 0 -186px!important
+}
+
+#filterlist-img #img3 a {
+    background-position: 0 -252px!important
+}
+
+#filterlist-img #img3 .active,#filterlist-img #img3 a:hover {
+    text-decoration: underline;
+    background-position: 0 -302px!important
+}
+
+#filterlist-img #img4 a {
+    background-position: 0 -370px!important
+}
+
+#filterlist-img #img4 .active,#filterlist-img #img4 a:hover {
+    text-decoration: underline;
+    background-position: 0 -430px!important
+}
+
+#FormCreateProfile .chek .controls {
+    margin-top: 10px
+}
+
+#FormCreateProfile .chek .controls input:nth-child(2) {
+    margin-left: 80px
+}
+
+.titre-club {
+    margin-left: 30px;
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+    padding-left: 6px!important;
+    padding-right: 6px!important;
+    text-transform: uppercase;
+    background-image: none;
+    border-radius: 5px;
+    box-shadow: 0 0 0 rgba(255,255,255,0) inset,0 0 0 transparent;
+    letter-spacing: 1px;
+    text-shadow: 0 0 0 rgba(255,255,255,0);
+    text-align: center;
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle
+}
+
+.cuisine-comp-club {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-bottom: 40px
+}
+
+.titre-desac p {
+    color: #4e4e4e;
+    font-weight: 400
+}
+
+.cuisine-comp-club p:nth-child(1) {
+    font-weight: 700;
+    margin: 30px 0 10px
+}
+
+.cuisine-comp-club .titre-desac p:nth-child(1) {
+    font-weight: 400
+}
+
+.cuisine-comp-club p:nth-child(3) {
+    font-weight: 700;
+    margin: 50px 0 10px;
+    margin-left: 30px
+}
+
+.cuisine-comp-club .form-horizontal .control-label {
+    text-align: left;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 17px
+}
+
+.cuisine-comp-club form {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: -20px
+}
+
+.cuisine-comp-club .form-horizontal .controls {
+    margin-left: 0
+}
+
+.cuisine-comp-club .btn-action {
+    padding: 5px 15px
+}
+
+#div_cache {
+    margin-top: 20px
+}
+
+.cuisine-comp-club .div_cache {
+    font-weight: 400
+}
+
+.cuisine-comp-club input {
+    margin-bottom: 5px
+}
+
+.cuisine-comp-club #div_cache {
+    font-weight: 400;
+    margin-top: -50px
+}
+
+#div_cache label {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 2px
+}
+
+.titre-inscription {
+    margin: 20px;
+    text-align: center
+}
+
+.cuisine-comp-club.labder {
+    margin-left: 0
+}
+
+#champ_cache {
+    margin-top: 20px
+}
+
+#menu-accordeon {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    border-bottom: 20px solid #be1834;
+    border-image-source: url(../../common/img/companion/border-menu.png);
+    border-image-slice: 22;
+    border-image-width: 0 0 22px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0
+}
+
+#menu-accordeon ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center
+}
+
+#menu-accordeon li {
+    background-color: #bd1935
+}
+
+#menu-accordeon li li {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s;
+    border-radius: 0;
+    background-color: #bd1935;
+    box-shadow: none;
+    border: none;
+    margin: 0
+}
+
+#menu-accordeon a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size: 1.2em
+}
+
+#menu-accordeon li:hover li a,#menu-accordeon ul li a {
+    font-size: 1em
+}
+
+#menu-accordeon li:hover {
+    background-color: #903f4d
+}
+
+#menu-accordeon li li:hover {
+    background-color: #903f4d
+}
+
+#menu-accordeon ul li:last-child {
+    border-radius: 0 0 6px 6px;
+    border: none
+}
+
+#menu-accordeon li:hover li {
+    max-height: 15em
+}
+
+#menuRol {
+    z-index: 1;
+    position: relative
+}
+
+#container-all-service .lame1 {
+    text-align: center;
+    margin-top: -14px;
+    position: relative
+}
+
+#container-all-service .lame1 p {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    font-size: 20px
+}
+
+#container-all-service .lame2 {
+    text-align: center;
+    margin: 30px auto
+}
+
+#container-all-service .lame2 p {
+    font-size: 17px;
+    color: #49423d;
+    line-height: 1.2
+}
+
+#container-all-service .lame2 .titre {
+    font-weight: 700;
+    font-size: 24px
+}
+
+#container-all-service #AccordionFAQ {
+    margin: 30px 50px
+}
+
+#container-all-service .sousfooter {
+    position: relative
+}
+
+#container-all-service .sousfooter .img-left {
+    display: inline-block;
+    float: left
+}
+
+#container-all-service .sousfooter .img-rieght {
+    display: inline-block;
+    float: left
+}
+
+.cuisine-comp-club span {
+    padding-right: 20px
+}
+
+.cuisine-comp-club .control-group {
+    margin-left: 0
+}
+
+.cuisine-comp-club .form-horizontal .control-group {
+    margin-bottom: 10px
+}
+
+.forme-2 .form-horizontal.labder {
+    margin-bottom: 0
+}
+
+.row-fluid .bloc.bloc-light.bloc-services h3 {
+    margin: 0
+}
+
+.row-fluid .bloc.bloc-light.bloc-services .caption {
+    margin: -10px 15px 0
+}
+
+.row-fluid .bloc.bloc-light.bloc-services .thumbnails li {
+    margin-bottom: 10px
+}
+
+.container-companion-cuisine-club .bloc-body [class*=span] {
+    margin-left: 0
+}
+
+.container-companion-cuisine-club .bloc-body img {
+    max-width: 100%
+}
+
+.container-companion-cuisine-club .bloc-action {
+    background-color: #edecf1;
+    padding-top: 10px
+}
+
+.container-companion-cuisine-club .bloc-action .btn-action {
+    width: 180px
+}
+
+.container-companion-cuisine-club .bloc-action input {
+    float: right;
+    margin-top: 5px;
+    padding: 7px;
+    width: 160px
+}
+
+li.CC_menu.CC_menu_actib .tex_nav {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px
+}
+
+.row-fluid.lame01 {
+    background-color: #898077;
+    height: 67px;
+    width: 940px
+}
+
+.row-fluid.lame01 ul li {
+    list-style: none;
+    float: left;
+    font-family: EurostileNextLTPro-SmBd,arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    margin-right: 38px;
+    margin-top: 15px
+}
+
+li.CC_menu a {
+    color: #fff;
+    font-family: EurostileNextLTPro-SmBd,arial,helvetica,sans-serif;
+    font-size: 18px
+}
+
+.tex_nav {
+    float: left;
+    padding-top: 7px;
+    padding-left: 5px;
+    font-family: EurostileNextLTPro-SmBd,arial,helvetica,sans-serif;
+    font-size: 18px
+}
+
+.img_icon {
+    float: left;
+    width: 30px;
+    height: 38px
+}
+
+.img_icon.img_icon0 {
+    background: url(../../common/img/companion/menu-header.png) 0 -38px
+}
+
+.img_icon.img_icon1 {
+    background: url(../../common/img/companion/menu-header.png) 0 -38px;
+    background-position: 109px 0;
+    width: 45px
+}
+
+.img_icon.img_icon2 {
+    background: url(../../common/img/companion/menu-header.png) 0 -38px;
+    background-position: 155px 0;
+    width: 35px
+}
+
+.img_icon.img_icon4 {
+    background: url(../../common/img/companion/menu-header.png) 0 -38px;
+    background-position: 50px 0;
+    width: 45px
+}
+
+.CC_menu:hover a .img_icon {
+    background-position-y: -38px
+}
+
+.img_icon.img_icon3 {
+    background: url(../../common/img/companion/Dossier-Companion-10-EXE-PL-2608-icon.png);
+    background-repeat: no-repeat;
+    width: 35px
+}
+
+.row-fluid.lame01 ul {
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 0;
+    padding-left: 40px
+}
+
+.container-companion #filter-menu {
+    overflow: hidden
+}
+
+.container-companion #filter-menu ul {
+    display: table
+}
+
+.container-companion #filter-menu ul #filterby {
+    display: table-cell;
+    margin: 0;
+    width: 68px
+}
+
+.container-companion #filter-menu form {
+    display: table-cell;
+    vertical-align: top;
+    float: left;
+    margin-left: 15px
+}
+
+.container-companion #filter-menu form li {
+    display: inherit;
+    float: none;
+    padding: 4px 0 4px 7px!important
+}
+
+.container-companion #filter-menu form li p {
+    max-width: 115px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.container-companion #filter-menu form li#Accompagnements p {
+    max-width: 146px
+}

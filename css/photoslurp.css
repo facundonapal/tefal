@@ -1,0 +1,82 @@
+/*=========================
+    LOOKBOOK STYLES
+==========================*/
+
+
+.wrapper-widgets {
+    margin: 44px auto;
+}
+
+.tabss {
+    text-align: center !important;
+}
+
+.tabss input[type=radio] {
+    display:none;
+}
+
+.tabss label {
+    display: inline-grid;
+    width: 23%;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    margin-bottom: 57px;
+    transition: border-bottom 1s ease;
+    border-bottom: 1px transparent solid;
+}
+
+
+.tabss [id^="tab"]:checked + label {
+    border-bottom: 1px solid #05301a;
+    border-bottom-width: thin; 
+}
+
+.tab-style {
+    color: #6c6c6c;
+    font-size: 13px;
+    font-family: "EurostileNextLTPro-SmBd";
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    word-break: break-word
+}
+
+
+ #tab1:checked ~ #tab-content1,
+ #tab2:checked ~ #tab-content2,
+ #tab3:checked ~ #tab-content3,
+ #tab4:checked ~ #tab-content4 {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+.ps-load-more-button {
+    color: #fff; !important;
+    background-color: #0099ff !important;
+    border: 1px solid #008ae6 !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    font-size: 1.4rem !important;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "brandon-grotesque",Arial,Helvetica,sans-serif !important;
+    letter-spacing: .2rem !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    border-radius: 0 !important;
+}
+
+.ps-load-more-button:hover {
+   background: #007acc !important;
+   border-color: #0065a8 !important;
+}
+
+.page__content {
+    margin-right: -124px;
+    position: relative;
+    right: 45px;
+}

@@ -1,0 +1,110 @@
+.carousel .item .tefal-facebook {
+    bottom: 22px;
+    position: absolute;
+    right: 220px;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+.carousel .item .tefal-facebook a {
+    display: block;
+    height: 26px;
+    width: 58px
+}
+
+.filters .item .facetValues ul {
+    padding: 0 0
+}
+
+.filters .item .facetValues ul li {
+    margin: 0;
+    padding-left: 12px;
+    list-style: none
+}
+
+.filters .item .facetValues ul.nad li {
+    padding-left: 10px
+}
+
+.filters-search .accordion-group .accordion-heading.link a {
+    background: #fff
+}
+
+.filters .accordion-inner-without {
+    padding: 0 10px
+}
+
+.display-none {
+    display: none
+}
+
+.mandatory-fix {
+    color: #d5585c
+}
+
+.faq-banner.without-border .picture {
+    border: 0 none
+}
+
+.subfooter p.corporateLegal {
+    margin-bottom: -20px
+}
+
+.details-store-off h4 {
+    line-height: 23px
+}
+
+#ModalPayment {
+    width: auto
+}
+
+.cart-action form {
+    float: right;
+    padding-left: 200px
+}
+
+div#cart_content #minicart_data {
+    background: #e1172b;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 11px;
+    height: 19px;
+    line-height: 18px;
+    margin: -3px 0 0 -11px;
+    min-width: 15px;
+    padding: 0 2px;
+    position: absolute;
+    text-align: center
+}
+
+div#cart_content #minicart_data:empty {
+    display: none
+}
+
+.cookiesmessage .close {
+    -moz-opacity: 1;
+    opacity: 1
+}
+
+.cookiesmessage .table {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 10px
+}
+
+.cookiesmessage .table td:first-child {
+    width: 50%;
+    border-top: 0;
+    padding-right: 15px
+}
+
+.cookiesmessage .table td:last-child {
+    width: 50%;
+    border-top: 0;
+    padding-left: 15px
+}
+
+.width-auto {
+    width: auto
+}
